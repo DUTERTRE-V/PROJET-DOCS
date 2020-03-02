@@ -1,0 +1,22 @@
+DECMA-PARK uniquement.
+Logiciel de communication sur réseau MODBUS.
+Configuration du variateur ( vitesse, rampes,etc ) et acquisition de la position de la lisse dans le temps.
+Si vous disposez de l'option effort, acquisition de l'effort sur la biellette.
+Sinon, vous pouvez toujours faire analyser les essais fournis avec le logiciel.
+
+
+04/11/2005 Version 1.4
+Prend en compte les nouveaux appareils ATV31 et E_Bloxx.
+Ajout de l'import Export vers le logiciel Excel.
+Ajout de nombreux exemples d'essais réalisés.
+Bouton appel de la calculette dans le volet Expert.
+
+
+05/02/2005 Version 1.3
+Modification echelle vitesse,jusqu'ici peu commode.
+Fichier netpark.ini mal placé lors de l'installation: il figurait dans le répertoire de l'application et non dans windows.
+Vitesse inversée sur potentiomètre inversé ne fonctionnait pas.
+Echelle effort: manque un 0 sur voie 2: 150 N au lieu de 1500
+Bouton aide dans volet Expert ne fonctionnait pas.
+Bouton aide dans volet acquisition invisible.
+

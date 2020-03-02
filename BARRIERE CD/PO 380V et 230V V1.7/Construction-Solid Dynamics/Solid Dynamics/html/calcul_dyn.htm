@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Ouvrir l'assemblage</title>
+<base target="_self">
+</head>
+
+<body background="../image/general/mw.jpg">
+
+<p align="center"><b><font face="Arial" size="5" color="#0000FF">Calcul
+dynamique</font></b></p>
+
+<p align="center"><a href="calcul_cin.htm"><font face="Arial"><img border="0" src="../images/back.gif" width="18" height="18"></font></a></p>
+
+<hr>
+
+<p align="left"><font face="Arial"><b>Étude dynamique</b></font></p>
+
+<hr>
+
+<p align="left"><font face="Arial">On cherche le couple moteur nécessaire pour
+effectuer le mouvement compte-tenu de la gravité et de frottement sec dans une
+liaison pivot.&nbsp;<br>
+On effectue alors un calcul de puissance en post-traitement.</font> </p>
+
+<p align="left"><font face="Arial" size="3">Se remettre en mode construction ( <img border="0" src="../images/construction.jpg" width="20" height="19">
+) pour modifier les paramètres de la simulation.</font> </p>
+
+<p align="left"><font face="Arial" size="3">Ouvrir la boîte de propriétés du
+corps <i>Base</i> et définir la gravité, la direction verticale étant donnée
+par l'axe Y :</font> </p>
+
+<p align="center"><font face="Arial"><img border="0" src="../images/contenu/gravité.gif" width="409" height="244"> </font> </p>
+
+<p align="left"><font face="Arial">Dans la liaison pivot entre les corps <i>Base</i>
+et <i>arbre barrière,</i> définir une action de frottement sec :</font> </p>
+
+<p align="center"><font face="Arial"><img border="0" src="../images/contenu/BP%20frottement.gif" width="408" height="244"> </font> </p>
+
+<p align="left"><font face="Arial" size="3">Lancer un calcul ( <img border="0" src="../images/run.jpg" width="24" height="22">
+ ).</font></p>
+
+<p align="left"><font face="Arial" size="3">Ouvrir le Grapheur ( <img border="0" src="../images/grapher.jpg" width="24" height="22">
+ ) et développer la liaison <i>Pivot : Base - arbre réducteur</i><br>
+Sélectionner (par un double-clic de la souris) la variable Ukin<i>[1.1]</i>
+dans le répertoire <i>Efforts moteur</i>.</font></p>
+
+<p align="center"><font face="Arial"><img border="0" src="../images/contenu/Graphe2.gif" width="663" height="527"></font></p>
+
+<p align="left"><font face="Arial"><b>NB</b> : en double-cliquant sur le
+Grapheur à l'endroit voulu (valeur max de la courbe par exemple), le mécanisme
+prend la position correspondante dans la fenêtre 3D et dans la partie tableur,
+on récupère les valeurs numériques.</font></p>
+
+<p align="left"><font face="Arial">Le calcul de la puissance nécessaire se fait
+en post-traitement.<br>
+Cliquer bouton droit dans l'arbre du Grapheur et choisir la fonction <i>Nouvelle
+courbe</i>.<br>
+Donner un nom à cette nouvelle variable (<i>puissance</i>) et définir son
+équation en double-cliquant sur les variables désirées dans l'arbre de
+sélection du Grapheur pour les écrire automatiquement :</font></p>
+
+<p align="center"><font face="Arial"><img border="0" src="../images/contenu/Equation.gif" width="659" height="528"></font></p>
+
+<p align="left"><font face="Arial">La puissance est le produit du couple moteur
+par la vitesse de rotation.<br>
+Valider.<br>
+Sélectionner la variable <i>puissance</i> qui est apparue dans le répertoire <i>Variables
+utilisateur</i> :</font></p>
+
+<p align="center"><font face="Arial"><img border="0" src="../images/contenu/graphe4.gif" width="661" height="528"></font></p>
+
+<p align="left"><font face="Arial">Avec les unités choisies, la puissance est en Watt.</font></p>
+
+<hr>
+
+<p align="center"><a href="calcul_cin.htm"><font face="Arial"><img border="0" src="../images/back.gif" width="18" height="18"></font></a></p>
+
+</body>
+
+</html>

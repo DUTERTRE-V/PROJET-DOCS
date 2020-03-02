@@ -1,0 +1,12 @@
+ATTENTION:  vraie grandeur (DECMA PARK) avec option "capteur d'efforts" seulement...
+
+
+Installez le en cliquant sur le fichier Setup IPC V321.exe
+
+L'identifiant à  fournir est 
+				NOM: DEC-INDUSTRIE
+				CODE: ICP100-5536-9803-0000-00035152 
+
+La configuration retenue est: protocole MODBUS RTU, vitesse 19200 bds, 8bits , pas de parité, 1 bit de stop, numéro d'esclave 2.
+
+Cette configuration est imposée par le variateur de vitesse ATV-28 (esclave 1) utilisé sur le même réseau, et ne pouvant être configuré autrement qu'en protocole MODBUS RTU maxi 19200 bds.

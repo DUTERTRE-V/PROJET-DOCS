@@ -1,0 +1,20 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 04/23/04 by Propriétaire
+' *****************************************************************************
+Dim swApp As Object
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim FeatureData As Object
+Dim Feature As Object
+Dim Component As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.OpenDoc6 ("\\Seb\SharedDocs\Cd V1.2\PO 380V et 230V V1.4\SolidWorks\Réducteur  Mb 2101\Pièces réducteur\rep63 Roulement 6205 ZZA50.SLDASM", 2, 4, "", longstatus, longwarnings)
+Set Part = swApp.ActivateDoc ("rep63 Roulement 6205 ZZA50")
+Part.PrintDirect
+Part.ViewZoomtofit
+swApp.ExitApp
+End Sub

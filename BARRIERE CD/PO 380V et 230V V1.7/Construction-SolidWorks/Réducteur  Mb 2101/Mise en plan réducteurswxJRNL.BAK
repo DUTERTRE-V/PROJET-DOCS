@@ -1,0 +1,27 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 04/23/04 by Propriétaire
+' *****************************************************************************
+Dim swApp As Object
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim FeatureData As Object
+Dim Feature As Object
+Dim Component As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.OpenDoc6 ("\\Seb\SharedDocs\Cd V1.2\PO 380V et 230V V1.4\SolidWorks\Réducteur  Mb 2101\Mise en plan réducteur\rep33 Arbre lent.SLDDRW", 3, 4, "", longstatus, longwarnings)
+Set Part = swApp.ActivateDoc ("rep33 Arbre lent - Feuille1")
+Set Part = swApp.OpenDoc6 ("\\Seb\SharedDocs\Cd V1.2\PO 380V et 230V V1.4\SolidWorks\Réducteur  Mb 2101\Mise en plan réducteur\rep41 vis sans fin.SLDDRW", 3, 4, "", longstatus, longwarnings)
+Set Part = swApp.ActivateDoc ("rep41 vis sans fin - Feuille1")
+Set Part = Nothing
+swApp.CloseDoc "rep41 vis sans fin - Feuille1"
+Set Part = swApp.ActivateDoc ("rep33 Arbre lent - Feuille1")
+Set Part = swApp.OpenDoc6 ("\\Seb\SharedDocs\Cd V1.2\PO 380V et 230V V1.4\SolidWorks\Réducteur  Mb 2101\Mise en plan réducteur\rep51 Roue.SLDDRW", 3, 4, "", longstatus, longwarnings)
+Set Part = swApp.ActivateDoc ("rep51 Roue - Feuille1")
+Set Part = swApp.OpenDoc6 ("\\Seb\SharedDocs\Cd V1.2\PO 380V et 230V V1.4\SolidWorks\Réducteur  Mb 2101\Mise en plan réducteur\rep41 vis sans fin.SLDDRW", 3, 4, "", longstatus, longwarnings)
+Set Part = swApp.ActivateDoc ("rep41 vis sans fin - Feuille1")
+swApp.ExitApp
+End Sub

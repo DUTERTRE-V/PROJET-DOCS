@@ -1,0 +1,90 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Construire le bras</title>
+<base target="_self">
+</head>
+
+<body background="../image/general/mw.jpg">
+
+<p align="center"><b><font face="Arial" color="#0000FF" size="5">Construire le mécanisme</font></b></p>
+
+<p align="center"><font face="Arial"><a href="summary.htm"><img border="0" src="../images/back.gif" width="18" height="18"></a>&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="construction2.htm"><img border="0" src="../images/next.gif" width="18" height="18"></a></font></p>
+
+<hr>
+
+<p align="left"><font face="Arial"><b>Traduire les contraintes en liaisons</b></font></p>
+
+<hr>
+
+<p style="line-height: 100%" align="left"><font face="Arial">Ouvrir le fichier <b>Barrière
+DECMA à construire</b> fourni dans le répertoire<i> Barrière DECMA</i>. Les sous-assemblages, qui vont
+constituer les pièces solides
+indéformables du mécanisme, sont déjà importés dans l'assemblage. Des
+contraintes ont été utilisées pour mettre en place le mécanisme.</font></p>
+
+<p style="line-height: 100%" align="left"><font face="Arial">Ouvrir les 2
+parties de l'arbre de construction et visualiser l'arbre MotionWorks dans celui
+du bas (onglet <img border="0" src="../images/mw.jpg" width="19" height="17"> ).</font></p>
+
+<p style="line-height: 100%" align="left"><font face="Arial">Dans cet arbre,
+cliquer bouton droit pour faire apparaître le menu contextuel et choisir la
+fonction <i>Rendre tout mobile</i> :</font></p>
+
+<p style="line-height: 100%" align="center"><font face="Arial"><img border="2" src="../images/contenu/Rendre%20tout%20M.gif" width="455" height="429"></font></p>
+
+<p style="line-height: 100%" align="left"><font face="Arial">Dans la table de
+traduction, on trouve :</font></p>
+
+<table border="0" width="80%">
+  <tr>
+    <td width="49%"><font face="Arial" size="3">coïncidence faces cylindriques</font></td>
+    <td width="9%"><font face="Arial" size="3">=</font></td>
+    <td width="43%"><font face="Arial" size="3">pivot glissant</font></td>
+  </tr>
+  <tr>
+    <td width="49%"><font face="Arial" size="3">coïncidence faces planes</font></td>
+    <td width="9%"><font face="Arial" size="3">=</font></td>
+    <td width="43%"><font face="Arial" size="3">appui plan</font></td>
+  </tr>
+  <tr>
+    <td width="49%"><font face="Arial" size="3">coïncidence points</font></td>
+    <td width="9%"><font face="Arial" size="3">=</font></td>
+    <td width="43%"><font face="Arial" size="3">rotule</font></td>
+  </tr>
+</table>
+<p style="line-height: 100%" align="left"><font face="Arial">Les autres liaisons
+découlent de la composition de ces contraintes : par exemple, <font face="Arial" size="3"><i>coïncidence
+faces cylindriques</i> et <i>coïncidence faces planes perpendiculaires</i> à
+l'axe </font>des faces cylindriques donnent une liaison <i>pivot</i>.</font></p>
+
+<p style="line-height: 100%" align="left"><font face="Arial">Certaines
+contraintes entre l'arbre-réducteur-1 et la Biellette réglable-1 entraîne
+après traduction la création d'une liaison pivot glissant. Or, avec cette
+liaison le système devient hyperstatique de degré 2, le message d'erreur
+suivant apparaît:</font></p>
+
+<p style="line-height: 100%" align="center"><font face="Arial"><img border="0" src="../images/contenu/hyperstatique.gif" width="280" height="126"></font></p>
+
+<p style="line-height: 100%" align="left"><font face="Arial">Les contraintes
+traduites, on obtient cet arbre de construction MotionWorks :</font></p>
+<p style="line-height: 100%" align="center"><font face="Arial"><img border="0" src="../images/contenu/arbre1.gif" width="366" height="233"></font></p>
+<p style="line-height: 100%" align="left"><font face="Arial">Pour obtenir un système isostatique,
+il faut changer cette liaison en libérant deux degrés de liberté. La liaison
+pivot glissant dispose de deux degrés de liberté, il faut donc la remplacer
+par une liaison linéaire annulaire qui possède quatre degrés de liberté.</font></p>
+
+<hr>
+
+<p align="center"><font face="Arial"><a href="summary.htm"><img border="0" src="../images/back.gif" width="18" height="18"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="construction2.htm"><img border="0" src="../images/next.gif" width="18" height="18"></a></font></p>
+
+</body>
+
+</html>

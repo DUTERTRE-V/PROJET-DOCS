@@ -1,0 +1,126 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Ouvrir l'assemblage</title>
+<base target="_self">
+</head>
+
+<body background="../image/general/mw.jpg">
+
+<p align="center"><b><font face="Arial" size="5" color="#0000FF">Simulation</font></b></p>
+
+<p align="center"><font face="Arial"><a href="construction2.htm"><img border="0" src="../images/back.gif" width="18" height="18"></a>&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="calcul_dyn.htm"><img border="0" src="../images/next.gif" width="18" height="18"></a></font></p>
+
+<hr>
+
+<p align="left"><font face="Arial"><b><a name="Étude cinématique">Étude cinématique</a></b></font></p>
+
+<hr>
+
+<p align="left"><font face="Arial" size="3">Définir une loi de mouvement dans
+la liaison entre les pièces <i>base</i> et <i>arbre-réducteur</i>.</font> </p>
+
+<p align="left"><font face="Arial" size="3">Ouvrir la boîte de propriétés de
+ce pivot:&nbsp;</font> </p>
+
+<p align="left"><font face="Arial" size="3">Ensuite, cocher la case à droite du bouton <i>Mouv. imposé</i> de l'onglet <i>ddl1
+(R)</i>.<br>
+Choisir <i>Vitesse</i> et cocher <i>Constante</i> puis écrire
+&quot;=1.963&quot; dans la case numérique :</font> </p>
+
+<p align="center"><font face="Arial"><img border="0" src="../images/contenu/Mouvement%20impose.gif" width="409" height="244"> </font> </p>
+
+<p align="left"><font face="Arial" size="3">Régler la barre de simulation pour
+avoir un cycle complet (3.22 secondes avec la vitesse choisie) :</font> </p>
+
+<p align="center"><img border="1" src="../images/contenu/simu.bmp" width="213" height="103"> </p>
+
+<p align="left"><font face="Arial" size="3">Lancer la simulation ( <img border="0" src="../images/run.jpg" width="24" height="22">
+).</font> </p>
+
+<p align="left"><font face="Arial" size="3">On peut diminuer le temps
+nécessaire à la simulation en désactivant l'affichage des images pendant les
+calculs : cliquer sur l'icône&nbsp; <img border="0" src="../images/affich_3D.jpg" width="20" height="19">.<br>
+</font> <font face="Arial"><b><font size="3">NB </font> </b> <font size="3"> : en post-traitement
+(relecture du calcul effectué avec les touches du magnétoscope </font> <img border="0" src="../images/contenu/calcul1.gif" width="73" height="44"><font face="Arial" size="3">), il est
+possible de ne voir qu'1 image sur X :</font> </font> </p>
+
+<p align="center"><font face="Arial"><img border="0" src="../images/post_traitement.jpg" width="66" height="107"> </font> </p>
+
+<p align="left"><font face="Arial">Ouvrir le Grapheur ( <img border="0" src="../images/grapher.jpg" width="24" height="22">
+).<br>
+Ouvrir le répertoire Variables utilisateur et sélectionner les composantes de
+l'accélération absolue du point en extrémité de barrière :</font> </p>
+
+<p align="center"><font face="Arial"><img border="0" src="../images/contenu/graphe1.gif" width="663" height="505"> </font> </p>
+
+<p align="left"><font face="Arial">On retrouve ici toutes les composantes (et la
+norme) des variables cinématiques de ce point cochées précédemment dans sa
+boite de propriété.</font> </p>
+
+<hr>
+<p align="left"><font face="Arial"><b><a name="Modification d'un paramètre de construction : l'entr'axe de biellette">Modification
+d'un paramètre de construction : l'entr'axe de biellette</a></b><span style="font-size: 10.0pt; mso-bidi-font-size: 12.0pt"><b style="mso-bidi-font-weight:normal"><o:p>
+</o:p>
+</b></span></font></p>
+<hr>
+<p class="MsoBodyTextIndent" style="text-align:justify"><font face="Arial">Revenir en mode
+construction <img border="0" src="../images/contenu/Mode%20construction.bmp" width="25" height="25">.
+Nous allons maintenant modifier une pièce pour obtenir une position horizontale
+de la barrière.</font></p>
+<p class="MsoBodyTextIndent" style="text-align:justify"><font face="Arial">On a créé un
+&quot;plan de jauge&quot; matérialisant la position souhaitée du contact écrou-tendeur
+:<span style="color:blue"><o:p>
+</o:p>
+</span></font></p>
+<p class="MsoBodyTextIndent" align="center"><span style="color:blue"><font face="Arial">&nbsp;<img border="0" src="../images/contenu/calcul2.gif" width="254" height="167"><o:p>
+</o:p>
+</font>
+</span></p>
+<p class="MsoBodyTextIndent" style="text-align:justify"><font face="Arial">&nbsp;&nbsp;Ce plan de
+jauge se trouve distant de 34 mm de l'axe de l'alésage pratiqué dans l'embout
+( le tendeur étant de longueur 80 mm, l'entr'axe de la biellette totalise 2 x
+34 + 80 = 148 mm ).</font></p>
+<p class="MsoBodyTextIndent" style="text-align:justify"><font face="Arial">&nbsp;Sous solidworks
+ouvrir le fichier &quot;embout.sldprt&quot; ( composant du sous-assemblage
+&quot;biellette réglable&quot; ).</font></p>
+<p class="MsoBodyTextIndent" align="center"><font face="Arial">&nbsp;<img border="1" src="../images/contenu/ouvrir%20embout.gif" width="290" height="201"><o:p>
+</o:p>
+</font>
+</p>
+<p class="MsoBodyTextIndent" style="text-align:justify"><font face="Arial">D'un clic droit sur le
+&quot;plan 5&quot; apparent à l'écran, &quot;éditer la définition&quot; de
+ce plan de jauge et passer la distance de 34 à 35,7 mm. Valider. L'entr'axe de
+la biellette passe alors de 148 à 151,4 mm.</font></p>
+<p class="MsoBodyTextIndent" align="center"><font face="Arial"><img border="0" src="../images/contenu/dim_embout.gif" width="176" height="408"><img border="0" src="../images/contenu/embout.gif" width="213" height="164"></font></p>
+
+<p align="left"><span style="font-size: 12.0pt; mso-fareast-font-family: Times New Roman; mso-ansi-language: FR; mso-fareast-language: FR; mso-bidi-language: AR-SA"><font face="Arial">Fermer
+le fichier &quot;embout.sldprt&quot;, reconstruire <img border="0" src="../images/contenu/calcul4.gif" width="16" height="18">
+l'ensemble &quot;barrière DECMA &quot; et constater la modification engendrée.</font></span> </p>
+
+<p align="left"><font face="Arial"><img border="0" src="../images/contenu/barr_origine.gif" width="331" height="116">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img border="0" src="../images/contenu/barr_horiz.gif" width="371" height="111"> </font> </p>
+
+<hr>
+
+<blockquote>
+  <blockquote>
+    <blockquote>
+
+<p align="center"><font face="Arial"><a href="construction2.htm"><img border="0" src="../images/back.gif" width="18" height="18"></a>&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="calcul_dyn.htm"><img border="0" src="../images/next.gif" width="18" height="18"></a></font></p>
+
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+</body>
+
+</html>

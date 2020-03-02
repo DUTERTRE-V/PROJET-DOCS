@@ -1,0 +1,14 @@
+DIALOG "Prototype" -1 -1 302 235
+
+LTEXTSTATIC "" 10 2 2 299 12 WS_GROUP | WS_BORDER
+
+TBLLISTBOX 11 2 15 299 200
+LBLIST     -1 "Ref" "$Ref" 14 "Désignation" "$Designation" 18 "D1" "D1" 5 "D2" "D2" 5 "B" "B" 5 "R" "R" 5
+SYSCTRL    -10 MBS_CLOSEDLG NUMRECORD SEVAL
+
+FOCUS
+PUSHBUTTON   "Accepter"  7020    5  219 44  -1  WS_TABSTOP
+SYSCTRL                  7020   MBS_CLOSEDLG
+
+PUSHBUTTON   "Annuler"   7021   54  219 44  -1  WS_TABSTOP
+SYSCTRL                  7021   MBS_CLOSEDLG

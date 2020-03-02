@@ -1,0 +1,708 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<Zelio>
+	<FileVersion>7</FileVersion>
+	<Module_Identity>
+		<Reference>SR1-A201BD,150,4</Reference>
+		<LineCount>80</LineCount>
+		<RemanenceSupported>0</RemanenceSupported>
+		<HelpSupported>1</HelpSupported>
+		<IxZxForced>0</IxZxForced>
+		<Bus_ASI>0</Bus_ASI>
+		<Blind>0</Blind>
+		<Ix_Count>12</Ix_Count>
+		<Qx_Count>8</Qx_Count>
+		<Xx_Count>4</Xx_Count>
+		<Rx_Count>0</Rx_Count>
+		<Cx_Count>8</Cx_Count>
+		<Vx_Count>0</Vx_Count>
+		<Tx_Count>8</Tx_Count>
+		<Ax_Count>0</Ax_Count>
+	</Module_Identity>
+	<Module_Properties>
+		<FastFilter>0</FastFilter>
+		<ZxActif>0</ZxActif>
+		<HelpOn>1</HelpOn>
+		<Password></Password>
+		<Langage>2</Langage>
+		<VisuBloc></VisuBloc>
+	</Module_Properties>
+	<Program pageCount='20'>
+		<page No='0'>
+			<line No='0'>
+				<Comment></Comment>
+				<Value>m2m3m5[M8</Value>
+			</line>
+			<line No='1'>
+				<Comment>Etape initiale X0</Comment>
+				<Value>M8--m7[M1</Value>
+			</line>
+			<line No='2'>
+				<Comment></Comment>
+				<Value>M1I3I6[MA</Value>
+			</line>
+			<line No='3'>
+				<Comment>Etape X1</Comment>
+				<Value>MAi4I5[M2</Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='1'>
+			<line No='4'>
+				<Comment></Comment>
+				<Value>M2I5mBTT1</Value>
+			</line>
+			<line No='5'>
+				<Comment></Comment>
+				<Value>i3I2--[MB</Value>
+			</line>
+			<line No='6'>
+				<Comment></Comment>
+				<Value>M3       </Value>
+			</line>
+			<line No='7'>
+				<Comment>Etape X2</Comment>
+				<Value>M2T1I3[M3</Value>
+			</line>
+			<links>208</links>
+		</page>
+		<page No='2'>
+			<line No='8'>
+				<Comment></Comment>
+				<Value>M3I5m5   </Value>
+			</line>
+			<line No='9'>
+				<Comment></Comment>
+				<Value>M3i4M9[MD</Value>
+			</line>
+			<line No='10'>
+				<Comment>Etape X4</Comment>
+				<Value>MDMEI1[M5</Value>
+			</line>
+			<line No='11'>
+				<Comment></Comment>
+				<Value>M5I5m7TT2</Value>
+			</line>
+			<links>009</links>
+		</page>
+		<page No='3'>
+			<line No='12'>
+				<Comment>Etape X5</Comment>
+				<Value>M5T2i4[M7</Value>
+			</line>
+			<line No='13'>
+				<Comment></Comment>
+				<Value>M7I5i2   </Value>
+			</line>
+			<line No='14'>
+				<Comment>Condition initiale</Comment>
+				<Value>I5i2i4[MF</Value>
+			</line>
+			<line No='15'>
+				<Comment>Set POM</Comment>
+				<Value>MFM8I7SM6</Value>
+			</line>
+			<links>004</links>
+		</page>
+		<page No='4'>
+			<line No='16'>
+				<Comment></Comment>
+				<Value>I2----RM6</Value>
+			</line>
+			<line No='17'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='18'>
+				<Comment></Comment>
+				<Value>i5       </Value>
+			</line>
+			<line No='19'>
+				<Comment>Mémoire passage sur Boucle2</Comment>
+				<Value>I4----SM9</Value>
+			</line>
+			<links>600</links>
+		</page>
+		<page No='5'>
+			<line No='20'>
+				<Comment>Mémoir front des. Boucle 1</Comment>
+				<Value>i3----[M4</Value>
+			</line>
+			<line No='21'>
+				<Comment></Comment>
+				<Value>  --m4SME</Value>
+			</line>
+			<line No='22'>
+				<Comment>Reset mémoire</Comment>
+				<Value>M1----RME</Value>
+			</line>
+			<line No='23'>
+				<Comment></Comment>
+				<Value>  ----RM9</Value>
+			</line>
+			<links>500</links>
+		</page>
+		<page No='6'>
+			<line No='24'>
+				<Comment>Montée</Comment>
+				<Value>M3--i1[Q1</Value>
+			</line>
+			<line No='25'>
+				<Comment></Comment>
+				<Value>M7I4     </Value>
+			</line>
+			<line No='26'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='27'>
+				<Comment>Voyant clignotant</Comment>
+				<Value>M2--T3[Q3</Value>
+			</line>
+			<links>040</links>
+		</page>
+		<page No='7'>
+			<line No='28'>
+				<Comment></Comment>
+				<Value>M3i1--TT3</Value>
+			</line>
+			<line No='29'>
+				<Comment></Comment>
+				<Value>M5--     </Value>
+			</line>
+			<line No='30'>
+				<Comment></Comment>
+				<Value>M6--     </Value>
+			</line>
+			<line No='31'>
+				<Comment></Comment>
+				<Value>M7--     </Value>
+			</line>
+			<links>0?0</links>
+		</page>
+		<page No='8'>
+			<line No='32'>
+				<Comment></Comment>
+				<Value>Q2--     </Value>
+			</line>
+			<line No='33'>
+				<Comment>Descente</Comment>
+				<Value>M7i4--[Q2</Value>
+			</line>
+			<line No='34'>
+				<Comment></Comment>
+				<Value>M6       </Value>
+			</line>
+			<line No='35'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>280</links>
+		</page>
+		<page No='9'>
+			<line No='36'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='37'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='38'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='39'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='10'>
+			<line No='40'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='41'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='42'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='43'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='11'>
+			<line No='44'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='45'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='46'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='47'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='12'>
+			<line No='48'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='49'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='50'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='51'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='13'>
+			<line No='52'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='53'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='54'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='55'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='14'>
+			<line No='56'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='57'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='58'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='59'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='15'>
+			<line No='60'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='61'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='62'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='63'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='16'>
+			<line No='64'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='65'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='66'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='67'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='17'>
+			<line No='68'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='69'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='70'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='71'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='18'>
+			<line No='72'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='73'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='74'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='75'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='19'>
+			<line No='76'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='77'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='78'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='79'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+	</Program>
+	<Bloc_Properties>
+		<Cx>
+			<C1>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C1>
+			<C2>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C2>
+			<C3>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C3>
+			<C4>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C4>
+			<C5>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C5>
+			<C6>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C6>
+			<C7>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C7>
+			<C8>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C8>
+		</Cx>
+		<Tx>
+			<T1>
+				<Comment></Comment>
+				<Properties>11010200</Properties>
+				<Remanent>0</Remanent>
+			</T1>
+			<T2>
+				<Comment></Comment>
+				<Properties>01010200</Properties>
+				<Remanent>0</Remanent>
+			</T2>
+			<T3>
+				<Comment>clignotant</Comment>
+				<Properties>01060050</Properties>
+				<Remanent>0</Remanent>
+			</T3>
+			<T4>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T4>
+			<T5>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T5>
+			<T6>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T6>
+			<T7>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T7>
+			<T8>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T8>
+		</Tx>
+		<Ix>
+			<I1>
+				<Comment>Fin de course haut</Comment>
+				<TypeInter>2</TypeInter>
+			</I1>
+			<I2>
+				<Comment>Fin de course bas</Comment>
+				<TypeInter>2</TypeInter>
+			</I2>
+			<I3>
+				<Comment>Boucle 1</Comment>
+				<TypeInter>2</TypeInter>
+			</I3>
+			<I4>
+				<Comment>Boucle 2</Comment>
+				<TypeInter>2</TypeInter>
+			</I4>
+			<I5>
+				<Comment>Ka1</Comment>
+				<TypeInter>2</TypeInter>
+			</I5>
+			<I6>
+				<Comment>Ticket</Comment>
+				<TypeInter>0</TypeInter>
+			</I6>
+			<I7>
+				<Comment>Pom</Comment>
+				<TypeInter>0</TypeInter>
+			</I7>
+			<I8>
+				<Comment></Comment>
+				<TypeInter>0</TypeInter>
+			</I8>
+			<I9>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</I9>
+			<IA>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</IA>
+			<IB>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</IB>
+			<IC>
+				<Comment></Comment>
+				<TypeInter>0</TypeInter>
+			</IC>
+		</Ix>
+		<Qx>
+			<Q1>
+				<Comment>Montée</Comment>
+				<TypeInter>2</TypeInter>
+			</Q1>
+			<Q2>
+				<Comment>Descente</Comment>
+				<TypeInter>2</TypeInter>
+			</Q2>
+			<Q3>
+				<Comment>Voyant clignotant</Comment>
+				<TypeInter>2</TypeInter>
+			</Q3>
+			<Q4>
+				<Comment>Sortie secours</Comment>
+				<TypeInter>2</TypeInter>
+			</Q4>
+			<Q5>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q5>
+			<Q6>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q6>
+			<Q7>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q7>
+			<Q8>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q8>
+		</Qx>
+		<Mx>
+			<M1>
+				<Comment>Etape X0</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M1>
+			<M2>
+				<Comment>Etape X1</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M2>
+			<M3>
+				<Comment>Etape X2</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M3>
+			<M4>
+				<Comment>Ligne front</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M4>
+			<M5>
+				<Comment>Etape X4</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M5>
+			<M6>
+				<Comment>POM</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M6>
+			<M7>
+				<Comment>Etape X5</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M7>
+			<M8>
+				<Comment>Retour1 X1</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M8>
+			<M9>
+				<Comment>Mémoire Boucle 2</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M9>
+			<MA>
+				<Comment>Passage en X2</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</MA>
+			<MB>
+				<Comment>Passage1 en X0</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</MB>
+			<MC>
+				<Comment>Passage2 en X0</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</MC>
+			<MD>
+				<Comment>Passage en X5</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</MD>
+			<ME>
+				<Comment>Mémoire front B1</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</ME>
+			<MF>
+				<Comment>CI</Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</MF>
+		</Mx>
+		<Zx>
+			<Z1>
+				<Comment></Comment>
+				<TypeInter>0</TypeInter>
+			</Z1>
+			<Z2>
+				<Comment></Comment>
+				<TypeInter>0</TypeInter>
+			</Z2>
+			<Z3>
+				<Comment></Comment>
+				<TypeInter>0</TypeInter>
+			</Z3>
+			<Z4>
+				<Comment></Comment>
+				<TypeInter>0</TypeInter>
+			</Z4>
+		</Zx>
+		<Xx>
+			<X1>
+				<Comment></Comment>
+				<Properties>                        ????????</Properties>
+			</X1>
+			<X2>
+				<Comment></Comment>
+				<Properties>                        ????????</Properties>
+			</X2>
+			<X3>
+				<Comment></Comment>
+				<Properties>                        ????????</Properties>
+			</X3>
+			<X4>
+				<Comment></Comment>
+				<Properties>                        ????????</Properties>
+			</X4>
+		</Xx>
+	</Bloc_Properties>
+	<PrintInfo>
+		<HeaderRight></HeaderRight>
+		<HeaderCenter>DECMA PARK</HeaderCenter>
+		<HeaderLeft>Barrière de péage</HeaderLeft>
+		<Signature></Signature>
+		<Auteur>PRODHOMME Sébastien</Auteur>
+		<Service></Service>
+		<FreeTop>DEC Industrie</FreeTop>
+		<FreeCenter></FreeCenter>
+		<FreeBottom></FreeBottom>
+		<Version>V2.0</Version>
+		<Time>1016092715</Time>
+	</PrintInfo>
+<EOF></EOF>
+</Zelio>

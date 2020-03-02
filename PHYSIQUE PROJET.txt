@@ -1,0 +1,43 @@
+
+Moteur LEROY SOMER Multibloc Mb 2101
+
+
+MESURE COUPLE = Nm (Newton mètre) <=>   F*m
+
+
+
+Moteurs triphases = 3 courants sinusoidaux
+
+					- meme frequence
+					- meme amplitude
+					- dephase
+
+mesurer la vitesse d'un moteur
+	- tachymetre
+
+detecteur magnetique bicanal <<ST>> capsys
+
+synchrone = généralement moteur tourne 50 tour/seconde = 50 Hz
+
+				50*60 = 3000 tour/min
+
+asynchrone = 47-48T/s 			47*60 = 2820 t/min
+
+
+
+
+----> Regarder jauge de deformation					(strain gage)
+----> comment mesurer electriquement une déformation ?   			(piezoelectricité)	https://www.ifsttar.fr/collections/CahiersInteractifs/CII1/pdfs/FicheC3-5-Guide_Auscultation_Ouvrage_Art-Cahier_Interactif_Ifsttar.pdf
+----> Dans le CD schéma du bras qui va nous aider à calculer les forces
+
+
+
+variation de résistance ----> metal plus etire
+
+
+
+https://www.youtube.com/watch?v=KyrK1wZ-aTk
+https://www.youtube.com/watch?v=q2rtsLtUjo0
+https://www.myomron.com/index.php?action=kb&article=1475
+
+pont de wheatstone

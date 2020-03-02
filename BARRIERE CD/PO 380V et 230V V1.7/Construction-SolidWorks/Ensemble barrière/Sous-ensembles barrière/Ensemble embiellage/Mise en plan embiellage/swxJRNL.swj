@@ -1,0 +1,18 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 04/23/04 by Propriétaire
+' *****************************************************************************
+Dim swApp As Object
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim FeatureData As Object
+Dim Feature As Object
+Dim Component As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.OpenDoc6 ("\\Seb\SharedDocs\Cd V1.2\SSM et Valise\Construction-Solid Works\Ensemble barrière\Sous-ensembles barrière\Ensemble embiellage\Mise en plan embiellage\Axe bielle.SLDDRW", 3, 4, "", longstatus, longwarnings)
+Set Part = swApp.ActivateDoc ("Axe bielle - Feuille1")
+swApp.ExitApp
+End Sub
